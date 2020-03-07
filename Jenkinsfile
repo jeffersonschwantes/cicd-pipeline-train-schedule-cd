@@ -18,7 +18,6 @@ pipeline {
         }        
         stage('Production') {
             steps {
-                prompt 'Proceed?'
                 echo 'Deploy to production...'
             }
         }                
